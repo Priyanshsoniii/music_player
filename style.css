@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 body {
   background-color: antiquewhite;
 }
@@ -15,7 +16,7 @@ nav ul {
   align-items: center;
   list-style-type: none;
   height: 65px;
-  background-color: black;
+  background-color:  rgb(112, 19, 0);
   color: white;
 }
 nav ul li {
@@ -30,6 +31,9 @@ nav ul li {
   align-items: center;
   font-weight: bolder;
   font-size: 1.3rem;
+}
+.quote{
+  font-family: 'Calligraffitti', cursive;;
 }
 .container {
   min-height: 72vh;
@@ -46,8 +50,8 @@ nav ul li {
 .bottom {
   position: sticky;
   bottom: 0;
-  height: 130px;
-  background-color: black;
+  height: 78px;
+  background-color: rgb(112, 19, 0);
   color: white;
   display: flex;
   justify-content: center;
@@ -55,7 +59,7 @@ nav ul li {
   flex-direction: column;
 }
 .icons {
-  margin-top: 14px;
+  margin-top: 11px;
 }
 .icons i {
   cursor: pointer;
